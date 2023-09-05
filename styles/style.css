@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 1px;
+    
+}
+
+body {
+    background-color: #f3afd7;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #f3e3e3;
+}
+
+.logo {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 2px 4px 19px 17px rgba(250,48,206,0.75);
+    -webkit-box-shadow: 2px 4px 19px 17px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 2px 4px 19px 17px rgba(250,48,206,0.75);
+}
+@media screen and (min-width: 750px) {
+    .logo{
+        width:60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo {
+        width: 50%;
+    }
+}
+
+.menu {
+    padding: 0.25rem;
+    margin: 5px;
+    background-color: #B91A60;
+    display: flex;
+    justify-content:space-between;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.link-menu {
+    background-color: #d10e64;
+    text-decoration: none;
+    color: white;
+}
+.produtos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+
+}
